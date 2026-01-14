@@ -8,21 +8,38 @@ body {
 }
 
 #uploadpdf{
+    display: flex;
     width: 400px;
     height: 200px;
     background-color: #2a2a2a;
-    border-radius: 20px;
+    /* border-radius: 20px; */
     border-style: dashed;
     border-color: antiquewhite;
+    color: antiquewhite;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
 
 }
+
+#uploadpdf.inputglow{
+    background-color: aliceblue;
+}
+
+
+#fileinp{
+    margin: 20px 20px;
+    background-color: antiquewhite;
+}
+
 
 #options{
     display: flex;
     flex-direction: row;
     color: white;
     gap: 20px;
-
+    user-select: none;
+    margin: 20px 20px;
 
 }
 

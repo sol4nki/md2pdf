@@ -7,10 +7,12 @@
     <title>md2pdf</title>
 </head>
 <body>
-    <div id="uploadpdf">
-
+    <div id="uploadpdf" style="-webkit-user-select:none;user-select:none;" unselectable="on" onselectstart="return false;" onmousedown="return false;">
+        <p>Drag n Drop the md file here</p>
     </div>
-    <div id="options">
+    <input type="file" id="fileinp">
+
+    <div id="options" style="-webkit-user-select:none;user-select:none;" unselectable="on" onselectstart="return false;" onmousedown="return false;">
         <label for="notai">
             <input type="checkbox" id="notai" name="notai" value="notai" style>
                 Not AI
@@ -26,5 +28,8 @@
 
 
     </div>
+
+
+    <script src="script.js"></script>
 </body>
 </html>
